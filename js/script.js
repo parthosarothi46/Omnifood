@@ -5,6 +5,7 @@ const h1 = document.querySelector(".heading-primary");
 console.log(myName);
 console.log(h1);
 
+///////////////////////////////////////////////////////////
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
@@ -95,8 +96,6 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
-
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
